@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEF9108A24C264A000A1F0CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF9108924C264A000A1F0CE /* AppDelegate.swift */; };
+		CEF9108C24C264A000A1F0CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF9108B24C264A000A1F0CE /* SceneDelegate.swift */; };
+		CEF9108E24C264A000A1F0CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF9108D24C264A000A1F0CE /* ContentView.swift */; };
+		CEF9109024C264A400A1F0CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF9108F24C264A400A1F0CE /* Assets.xcassets */; };
+		CEF9109324C264A400A1F0CE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF9109224C264A400A1F0CE /* Preview Assets.xcassets */; };
+		CEF9109624C264A400A1F0CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF9109424C264A400A1F0CE /* LaunchScreen.storyboard */; };
+		CEF910A124C264A500A1F0CE /* eWalleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF910A024C264A500A1F0CE /* eWalleTests.swift */; };
+		CEF910AC24C264A500A1F0CE /* eWalleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF910AB24C264A500A1F0CE /* eWalleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEF9109D24C264A500A1F0CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEF9107E24C264A000A1F0CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEF9108524C264A000A1F0CE;
+			remoteInfo = eWalle;
+		};
+		CEF910A824C264A500A1F0CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEF9107E24C264A000A1F0CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEF9108524C264A000A1F0CE;
+			remoteInfo = eWalle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEF9108624C264A000A1F0CE /* eWalle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eWalle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF9108924C264A000A1F0CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEF9108B24C264A000A1F0CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CEF9108D24C264A000A1F0CE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CEF9108F24C264A400A1F0CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEF9109224C264A400A1F0CE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CEF9109524C264A400A1F0CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEF9109724C264A400A1F0CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEF9109C24C264A500A1F0CE /* eWalleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eWalleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF910A024C264A500A1F0CE /* eWalleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eWalleTests.swift; sourceTree = "<group>"; };
+		CEF910A224C264A500A1F0CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEF910A724C264A500A1F0CE /* eWalleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eWalleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF910AB24C264A500A1F0CE /* eWalleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eWalleUITests.swift; sourceTree = "<group>"; };
+		CEF910AD24C264A500A1F0CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEF9108324C264A000A1F0CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF9109924C264A500A1F0CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF910A424C264A500A1F0CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEF9107D24C264A000A1F0CE = {
+			isa = PBXGroup;
+			children = (
+				CEF9108824C264A000A1F0CE /* eWalle */,
+				CEF9109F24C264A500A1F0CE /* eWalleTests */,
+				CEF910AA24C264A500A1F0CE /* eWalleUITests */,
+				CEF9108724C264A000A1F0CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEF9108724C264A000A1F0CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEF9108624C264A000A1F0CE /* eWalle.app */,
+				CEF9109C24C264A500A1F0CE /* eWalleTests.xctest */,
+				CEF910A724C264A500A1F0CE /* eWalleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEF9108824C264A000A1F0CE /* eWalle */ = {
+			isa = PBXGroup;
+			children = (
+				CEF9108924C264A000A1F0CE /* AppDelegate.swift */,
+				CEF9108B24C264A000A1F0CE /* SceneDelegate.swift */,
+				CEF9108D24C264A000A1F0CE /* ContentView.swift */,
+				CEF9108F24C264A400A1F0CE /* Assets.xcassets */,
+				CEF9109424C264A400A1F0CE /* LaunchScreen.storyboard */,
+				CEF9109724C264A400A1F0CE /* Info.plist */,
+				CEF9109124C264A400A1F0CE /* Preview Content */,
+			);
+			path = eWalle;
+			sourceTree = "<group>";
+		};
+		CEF9109124C264A400A1F0CE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CEF9109224C264A400A1F0CE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CEF9109F24C264A500A1F0CE /* eWalleTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEF910A024C264A500A1F0CE /* eWalleTests.swift */,
+				CEF910A224C264A500A1F0CE /* Info.plist */,
+			);
+			path = eWalleTests;
+			sourceTree = "<group>";
+		};
+		CEF910AA24C264A500A1F0CE /* eWalleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEF910AB24C264A500A1F0CE /* eWalleUITests.swift */,
+				CEF910AD24C264A500A1F0CE /* Info.plist */,
+			);
+			path = eWalleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEF9108524C264A000A1F0CE /* eWalle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF910B024C264A500A1F0CE /* Build configuration list for PBXNativeTarget "eWalle" */;
+			buildPhases = (
+				CEF9108224C264A000A1F0CE /* Sources */,
+				CEF9108324C264A000A1F0CE /* Frameworks */,
+				CEF9108424C264A000A1F0CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = eWalle;
+			productName = eWalle;
+			productReference = CEF9108624C264A000A1F0CE /* eWalle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEF9109B24C264A500A1F0CE /* eWalleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF910B324C264A500A1F0CE /* Build configuration list for PBXNativeTarget "eWalleTests" */;
+			buildPhases = (
+				CEF9109824C264A500A1F0CE /* Sources */,
+				CEF9109924C264A500A1F0CE /* Frameworks */,
+				CEF9109A24C264A500A1F0CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEF9109E24C264A500A1F0CE /* PBXTargetDependency */,
+			);
+			name = eWalleTests;
+			productName = eWalleTests;
+			productReference = CEF9109C24C264A500A1F0CE /* eWalleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEF910A624C264A500A1F0CE /* eWalleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF910B624C264A500A1F0CE /* Build configuration list for PBXNativeTarget "eWalleUITests" */;
+			buildPhases = (
+				CEF910A324C264A500A1F0CE /* Sources */,
+				CEF910A424C264A500A1F0CE /* Frameworks */,
+				CEF910A524C264A500A1F0CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEF910A924C264A500A1F0CE /* PBXTargetDependency */,
+			);
+			name = eWalleUITests;
+			productName = eWalleUITests;
+			productReference = CEF910A724C264A500A1F0CE /* eWalleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEF9107E24C264A000A1F0CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Ugarsoft;
+				TargetAttributes = {
+					CEF9108524C264A000A1F0CE = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					CEF9109B24C264A500A1F0CE = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = CEF9108524C264A000A1F0CE;
+					};
+					CEF910A624C264A500A1F0CE = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = CEF9108524C264A000A1F0CE;
+					};
+				};
+			};
+			buildConfigurationList = CEF9108124C264A000A1F0CE /* Build configuration list for PBXProject "eWalle" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEF9107D24C264A000A1F0CE;
+			productRefGroup = CEF9108724C264A000A1F0CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEF9108524C264A000A1F0CE /* eWalle */,
+				CEF9109B24C264A500A1F0CE /* eWalleTests */,
+				CEF910A624C264A500A1F0CE /* eWalleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEF9108424C264A000A1F0CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF9109624C264A400A1F0CE /* LaunchScreen.storyboard in Resources */,
+				CEF9109324C264A400A1F0CE /* Preview Assets.xcassets in Resources */,
+				CEF9109024C264A400A1F0CE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF9109A24C264A500A1F0CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF910A524C264A500A1F0CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEF9108224C264A000A1F0CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF9108A24C264A000A1F0CE /* AppDelegate.swift in Sources */,
+				CEF9108C24C264A000A1F0CE /* SceneDelegate.swift in Sources */,
+				CEF9108E24C264A000A1F0CE /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF9109824C264A500A1F0CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF910A124C264A500A1F0CE /* eWalleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF910A324C264A500A1F0CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF910AC24C264A500A1F0CE /* eWalleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEF9109E24C264A500A1F0CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEF9108524C264A000A1F0CE /* eWalle */;
+			targetProxy = CEF9109D24C264A500A1F0CE /* PBXContainerItemProxy */;
+		};
+		CEF910A924C264A500A1F0CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEF9108524C264A000A1F0CE /* eWalle */;
+			targetProxy = CEF910A824C264A500A1F0CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEF9109424C264A400A1F0CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEF9109524C264A400A1F0CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEF910AE24C264A500A1F0CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEF910AF24C264A500A1F0CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEF910B124C264A500A1F0CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"eWalle/Preview Content\"";
+				DEVELOPMENT_TEAM = KA4Q5YU82S;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = eWalle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.martins.eWalle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEF910B224C264A500A1F0CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"eWalle/Preview Content\"";
+				DEVELOPMENT_TEAM = KA4Q5YU82S;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = eWalle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.martins.eWalle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEF910B424C264A500A1F0CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KA4Q5YU82S;
+				INFOPLIST_FILE = eWalleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.martins.eWalleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eWalle.app/eWalle";
+			};
+			name = Debug;
+		};
+		CEF910B524C264A500A1F0CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KA4Q5YU82S;
+				INFOPLIST_FILE = eWalleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.martins.eWalleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eWalle.app/eWalle";
+			};
+			name = Release;
+		};
+		CEF910B724C264A500A1F0CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KA4Q5YU82S;
+				INFOPLIST_FILE = eWalleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.martins.eWalleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = eWalle;
+			};
+			name = Debug;
+		};
+		CEF910B824C264A500A1F0CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KA4Q5YU82S;
+				INFOPLIST_FILE = eWalleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.martins.eWalleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = eWalle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEF9108124C264A000A1F0CE /* Build configuration list for PBXProject "eWalle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF910AE24C264A500A1F0CE /* Debug */,
+				CEF910AF24C264A500A1F0CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEF910B024C264A500A1F0CE /* Build configuration list for PBXNativeTarget "eWalle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF910B124C264A500A1F0CE /* Debug */,
+				CEF910B224C264A500A1F0CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEF910B324C264A500A1F0CE /* Build configuration list for PBXNativeTarget "eWalleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF910B424C264A500A1F0CE /* Debug */,
+				CEF910B524C264A500A1F0CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEF910B624C264A500A1F0CE /* Build configuration list for PBXNativeTarget "eWalleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF910B724C264A500A1F0CE /* Debug */,
+				CEF910B824C264A500A1F0CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEF9107E24C264A000A1F0CE /* Project object */;
+}
