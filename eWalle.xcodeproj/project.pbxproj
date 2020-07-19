@@ -3,18 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		CEF9108A24C264A000A1F0CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF9108924C264A000A1F0CE /* AppDelegate.swift */; };
 		CEF9108C24C264A000A1F0CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF9108B24C264A000A1F0CE /* SceneDelegate.swift */; };
-		CEF9108E24C264A000A1F0CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF9108D24C264A000A1F0CE /* ContentView.swift */; };
+		CEF9108E24C264A000A1F0CE /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF9108D24C264A000A1F0CE /* MainView.swift */; };
 		CEF9109024C264A400A1F0CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF9108F24C264A400A1F0CE /* Assets.xcassets */; };
 		CEF9109324C264A400A1F0CE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF9109224C264A400A1F0CE /* Preview Assets.xcassets */; };
 		CEF9109624C264A400A1F0CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF9109424C264A400A1F0CE /* LaunchScreen.storyboard */; };
 		CEF910A124C264A500A1F0CE /* eWalleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF910A024C264A500A1F0CE /* eWalleTests.swift */; };
 		CEF910AC24C264A500A1F0CE /* eWalleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF910AB24C264A500A1F0CE /* eWalleUITests.swift */; };
+		CEF910BE24C26E0F00A1F0CE /* AvenirNextLTPro-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = CEF910BB24C26E0F00A1F0CE /* AvenirNextLTPro-Bold.otf */; };
+		CEF910BF24C26E0F00A1F0CE /* AvenirNextLTPro-It.otf in Resources */ = {isa = PBXBuildFile; fileRef = CEF910BC24C26E0F00A1F0CE /* AvenirNextLTPro-It.otf */; };
+		CEF910C024C26E0F00A1F0CE /* AvenirNextLTPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = CEF910BD24C26E0F00A1F0CE /* AvenirNextLTPro-Regular.otf */; };
+		CEF910C224C26F5100A1F0CE /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF910C124C26F5100A1F0CE /* LoginView.swift */; };
+		CEF910C524C2703D00A1F0CE /* FontModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF910C424C2703D00A1F0CE /* FontModifiers.swift */; };
+		CEF910C724C273BF00A1F0CE /* AvenirNextLTPro-BoldCn.otf in Resources */ = {isa = PBXBuildFile; fileRef = CEF910C624C273BF00A1F0CE /* AvenirNextLTPro-BoldCn.otf */; };
+		CEF910C924C273CE00A1F0CE /* AvenirNextLTPro-Demi.otf in Resources */ = {isa = PBXBuildFile; fileRef = CEF910C824C273CE00A1F0CE /* AvenirNextLTPro-Demi.otf */; };
+		CEF910CB24C273DF00A1F0CE /* AvenirNextLTPro-DemiCn.otf in Resources */ = {isa = PBXBuildFile; fileRef = CEF910CA24C273DF00A1F0CE /* AvenirNextLTPro-DemiCn.otf */; };
+		CEF910D424C2E94400A1F0CE /* Ubuntu-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEF910CC24C2E94300A1F0CE /* Ubuntu-LightItalic.ttf */; };
+		CEF910D524C2E94400A1F0CE /* Ubuntu-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEF910CD24C2E94300A1F0CE /* Ubuntu-Bold.ttf */; };
+		CEF910D624C2E94400A1F0CE /* Ubuntu-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEF910CE24C2E94300A1F0CE /* Ubuntu-MediumItalic.ttf */; };
+		CEF910D724C2E94400A1F0CE /* Ubuntu-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEF910CF24C2E94300A1F0CE /* Ubuntu-Light.ttf */; };
+		CEF910D824C2E94400A1F0CE /* Ubuntu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEF910D024C2E94400A1F0CE /* Ubuntu-Regular.ttf */; };
+		CEF910D924C2E94400A1F0CE /* Ubuntu-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEF910D124C2E94400A1F0CE /* Ubuntu-Medium.ttf */; };
+		CEF910DA24C2E94400A1F0CE /* Ubuntu-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEF910D224C2E94400A1F0CE /* Ubuntu-BoldItalic.ttf */; };
+		CEF910DB24C2E94400A1F0CE /* Ubuntu-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEF910D324C2E94400A1F0CE /* Ubuntu-Italic.ttf */; };
+		CEF910DD24C2FE9B00A1F0CE /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF910DC24C2FE9B00A1F0CE /* MenuView.swift */; };
+		CEF910DF24C3B63A00A1F0CE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF910DE24C3B63A00A1F0CE /* HomeView.swift */; };
+		CEF910E224C43CE200A1F0CE /* Grid in Frameworks */ = {isa = PBXBuildFile; productRef = CEF910E124C43CE200A1F0CE /* Grid */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +57,7 @@
 		CEF9108624C264A000A1F0CE /* eWalle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eWalle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF9108924C264A000A1F0CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEF9108B24C264A000A1F0CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CEF9108D24C264A000A1F0CE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CEF9108D24C264A000A1F0CE /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		CEF9108F24C264A400A1F0CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEF9109224C264A400A1F0CE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CEF9109524C264A400A1F0CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +68,24 @@
 		CEF910A724C264A500A1F0CE /* eWalleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eWalleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF910AB24C264A500A1F0CE /* eWalleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eWalleUITests.swift; sourceTree = "<group>"; };
 		CEF910AD24C264A500A1F0CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEF910BB24C26E0F00A1F0CE /* AvenirNextLTPro-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirNextLTPro-Bold.otf"; sourceTree = "<group>"; };
+		CEF910BC24C26E0F00A1F0CE /* AvenirNextLTPro-It.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirNextLTPro-It.otf"; sourceTree = "<group>"; };
+		CEF910BD24C26E0F00A1F0CE /* AvenirNextLTPro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirNextLTPro-Regular.otf"; sourceTree = "<group>"; };
+		CEF910C124C26F5100A1F0CE /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		CEF910C424C2703D00A1F0CE /* FontModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontModifiers.swift; sourceTree = "<group>"; };
+		CEF910C624C273BF00A1F0CE /* AvenirNextLTPro-BoldCn.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirNextLTPro-BoldCn.otf"; sourceTree = "<group>"; };
+		CEF910C824C273CE00A1F0CE /* AvenirNextLTPro-Demi.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirNextLTPro-Demi.otf"; sourceTree = "<group>"; };
+		CEF910CA24C273DF00A1F0CE /* AvenirNextLTPro-DemiCn.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirNextLTPro-DemiCn.otf"; sourceTree = "<group>"; };
+		CEF910CC24C2E94300A1F0CE /* Ubuntu-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-LightItalic.ttf"; sourceTree = "<group>"; };
+		CEF910CD24C2E94300A1F0CE /* Ubuntu-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Bold.ttf"; sourceTree = "<group>"; };
+		CEF910CE24C2E94300A1F0CE /* Ubuntu-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-MediumItalic.ttf"; sourceTree = "<group>"; };
+		CEF910CF24C2E94300A1F0CE /* Ubuntu-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Light.ttf"; sourceTree = "<group>"; };
+		CEF910D024C2E94400A1F0CE /* Ubuntu-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Regular.ttf"; sourceTree = "<group>"; };
+		CEF910D124C2E94400A1F0CE /* Ubuntu-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Medium.ttf"; sourceTree = "<group>"; };
+		CEF910D224C2E94400A1F0CE /* Ubuntu-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-BoldItalic.ttf"; sourceTree = "<group>"; };
+		CEF910D324C2E94400A1F0CE /* Ubuntu-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Italic.ttf"; sourceTree = "<group>"; };
+		CEF910DC24C2FE9B00A1F0CE /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		CEF910DE24C3B63A00A1F0CE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEF910E224C43CE200A1F0CE /* Grid in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,10 +137,13 @@
 		CEF9108824C264A000A1F0CE /* eWalle */ = {
 			isa = PBXGroup;
 			children = (
+				CEF910C324C2702000A1F0CE /* Modifiers */,
+				CEF910B924C26C5600A1F0CE /* Screens */,
 				CEF9108924C264A000A1F0CE /* AppDelegate.swift */,
 				CEF9108B24C264A000A1F0CE /* SceneDelegate.swift */,
-				CEF9108D24C264A000A1F0CE /* ContentView.swift */,
+				CEF9108D24C264A000A1F0CE /* MainView.swift */,
 				CEF9108F24C264A400A1F0CE /* Assets.xcassets */,
+				CEF910BA24C26E0F00A1F0CE /* Font */,
 				CEF9109424C264A400A1F0CE /* LaunchScreen.storyboard */,
 				CEF9109724C264A400A1F0CE /* Info.plist */,
 				CEF9109124C264A400A1F0CE /* Preview Content */,
@@ -136,6 +177,45 @@
 			path = eWalleUITests;
 			sourceTree = "<group>";
 		};
+		CEF910B924C26C5600A1F0CE /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				CEF910C124C26F5100A1F0CE /* LoginView.swift */,
+				CEF910DC24C2FE9B00A1F0CE /* MenuView.swift */,
+				CEF910DE24C3B63A00A1F0CE /* HomeView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		CEF910BA24C26E0F00A1F0CE /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				CEF910CD24C2E94300A1F0CE /* Ubuntu-Bold.ttf */,
+				CEF910D224C2E94400A1F0CE /* Ubuntu-BoldItalic.ttf */,
+				CEF910D324C2E94400A1F0CE /* Ubuntu-Italic.ttf */,
+				CEF910CF24C2E94300A1F0CE /* Ubuntu-Light.ttf */,
+				CEF910CC24C2E94300A1F0CE /* Ubuntu-LightItalic.ttf */,
+				CEF910D124C2E94400A1F0CE /* Ubuntu-Medium.ttf */,
+				CEF910CE24C2E94300A1F0CE /* Ubuntu-MediumItalic.ttf */,
+				CEF910D024C2E94400A1F0CE /* Ubuntu-Regular.ttf */,
+				CEF910BB24C26E0F00A1F0CE /* AvenirNextLTPro-Bold.otf */,
+				CEF910C624C273BF00A1F0CE /* AvenirNextLTPro-BoldCn.otf */,
+				CEF910C824C273CE00A1F0CE /* AvenirNextLTPro-Demi.otf */,
+				CEF910CA24C273DF00A1F0CE /* AvenirNextLTPro-DemiCn.otf */,
+				CEF910BC24C26E0F00A1F0CE /* AvenirNextLTPro-It.otf */,
+				CEF910BD24C26E0F00A1F0CE /* AvenirNextLTPro-Regular.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		CEF910C324C2702000A1F0CE /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				CEF910C424C2703D00A1F0CE /* FontModifiers.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,6 +232,9 @@
 			dependencies = (
 			);
 			name = eWalle;
+			packageProductDependencies = (
+				CEF910E124C43CE200A1F0CE /* Grid */,
+			);
 			productName = eWalle;
 			productReference = CEF9108624C264A000A1F0CE /* eWalle.app */;
 			productType = "com.apple.product-type.application";
@@ -224,6 +307,9 @@
 				Base,
 			);
 			mainGroup = CEF9107D24C264A000A1F0CE;
+			packageReferences = (
+				CEF910E024C43CE200A1F0CE /* XCRemoteSwiftPackageReference "swiftui-grid" */,
+			);
 			productRefGroup = CEF9108724C264A000A1F0CE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -240,9 +326,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEF910D424C2E94400A1F0CE /* Ubuntu-LightItalic.ttf in Resources */,
+				CEF910C924C273CE00A1F0CE /* AvenirNextLTPro-Demi.otf in Resources */,
+				CEF910D624C2E94400A1F0CE /* Ubuntu-MediumItalic.ttf in Resources */,
 				CEF9109624C264A400A1F0CE /* LaunchScreen.storyboard in Resources */,
 				CEF9109324C264A400A1F0CE /* Preview Assets.xcassets in Resources */,
+				CEF910BE24C26E0F00A1F0CE /* AvenirNextLTPro-Bold.otf in Resources */,
+				CEF910C724C273BF00A1F0CE /* AvenirNextLTPro-BoldCn.otf in Resources */,
+				CEF910D524C2E94400A1F0CE /* Ubuntu-Bold.ttf in Resources */,
+				CEF910DA24C2E94400A1F0CE /* Ubuntu-BoldItalic.ttf in Resources */,
+				CEF910D724C2E94400A1F0CE /* Ubuntu-Light.ttf in Resources */,
+				CEF910CB24C273DF00A1F0CE /* AvenirNextLTPro-DemiCn.otf in Resources */,
 				CEF9109024C264A400A1F0CE /* Assets.xcassets in Resources */,
+				CEF910D924C2E94400A1F0CE /* Ubuntu-Medium.ttf in Resources */,
+				CEF910DB24C2E94400A1F0CE /* Ubuntu-Italic.ttf in Resources */,
+				CEF910C024C26E0F00A1F0CE /* AvenirNextLTPro-Regular.otf in Resources */,
+				CEF910D824C2E94400A1F0CE /* Ubuntu-Regular.ttf in Resources */,
+				CEF910BF24C26E0F00A1F0CE /* AvenirNextLTPro-It.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,8 +368,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEF9108A24C264A000A1F0CE /* AppDelegate.swift in Sources */,
+				CEF910DF24C3B63A00A1F0CE /* HomeView.swift in Sources */,
+				CEF910DD24C2FE9B00A1F0CE /* MenuView.swift in Sources */,
+				CEF910C524C2703D00A1F0CE /* FontModifiers.swift in Sources */,
 				CEF9108C24C264A000A1F0CE /* SceneDelegate.swift in Sources */,
-				CEF9108E24C264A000A1F0CE /* ContentView.swift in Sources */,
+				CEF910C224C26F5100A1F0CE /* LoginView.swift in Sources */,
+				CEF9108E24C264A000A1F0CE /* MainView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -594,6 +698,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CEF910E024C43CE200A1F0CE /* XCRemoteSwiftPackageReference "swiftui-grid" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/spacenation/swiftui-grid.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CEF910E124C43CE200A1F0CE /* Grid */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CEF910E024C43CE200A1F0CE /* XCRemoteSwiftPackageReference "swiftui-grid" */;
+			productName = Grid;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CEF9107E24C264A000A1F0CE /* Project object */;
 }
