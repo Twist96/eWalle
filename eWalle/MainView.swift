@@ -11,9 +11,10 @@ import SwiftUI
 struct MainView: View {
     @State var isMenuShowing = false
     @State var homeViewPosition = CGSize.zero
+    @State var loggedIn = false
     var body: some View {
         ZStack {
-            MenuView(isMenuShowing: $isMenuShowing)
+            MenuView(isMenuShowing: $isMenuShowing, loggedIn: $loggedIn)
             HomeView(isMenuShowing: $isMenuShowing)
                 .rotationEffect(.degrees(isMenuShowing ? -15 : 0))
                 .rotationEffect(.degrees(-Double(homeViewPosition.width/2)))
@@ -35,7 +36,11 @@ struct MainView: View {
                     self.homeViewPosition = .zero
                 }
             )
-            //LoginView()
+            
+            if !loggedIn {
+                LoginView(loggedIn: $loggedIn)
+                    .opacity(loggedIn ? 0 : 1)
+            }
         }
     }
 }
@@ -44,11 +49,11 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
             MainView()
-                .previewDevice(PreviewDevice(rawValue: "iPhone SE"))
-                .previewDisplayName("iPhone SE")
+                //.previewDevice(PreviewDevice(rawValue: "iPhone SE"))
+                //.previewDisplayName("iPhone SE")
                 //.environment(\.colorScheme, .dark)
             MainView()
-                //.environment(\.colorScheme, .dark)
+                .environment(\.colorScheme, .dark)
         }
     }
 }

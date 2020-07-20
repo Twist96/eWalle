@@ -10,6 +10,7 @@ import SwiftUI
 
 struct MenuView: View {
     @Binding var isMenuShowing: Bool
+    @Binding var loggedIn: Bool
     var body: some View {
         VStack(alignment: .leading) {
             //header + profile
@@ -30,7 +31,11 @@ struct MenuView: View {
                             Text("Logout")
                                 .font(.custom("AvenirNextLTPro-Bold", size: 16))
                         }
+                        .padding(.vertical, 8)
                         .padding(.horizontal, 30)
+                        .onTapGesture {
+                            self.loggedIn = false
+                        }
                         
                         Spacer()
                             .frame(height: 10)
@@ -58,11 +63,11 @@ struct MenuView: View {
 struct MenuView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            MenuView(isMenuShowing: .constant(false))
+            MenuView(isMenuShowing: .constant(false), loggedIn: .constant(false))
                 .previewDevice(PreviewDevice(rawValue: "iPhone SE"))
                 .previewDisplayName("iPhone SE")
                 //.environment(\.colorScheme, .dark)
-            MenuView(isMenuShowing: .constant(false))
+            MenuView(isMenuShowing: .constant(false), loggedIn: .constant(false))
                 .environment(\.colorScheme, .dark)
         }
     }
@@ -130,8 +135,8 @@ struct MenuHeader: View {
 
 struct MenuGroup: View {
     @State var menuMinY: CGFloat = 0
-    @State var offsetVlaue: CGFloat = 0
     @State var selectedIndex: Int = 0
+    @State var menuHeight: CGFloat = 0
     
     var body: some View {
         ZStack(alignment: .topLeading) {
@@ -143,8 +148,8 @@ struct MenuGroup: View {
                             .font(.custom(index == self.selectedIndex ? "AvenirNextLTPro-Bold" : "AvenirNextLTPro-Regular", size: 16))
                             .frame(width: 150, height: 33, alignment: .leading)
                             .onTapGesture {
-                                self.offsetVlaue = geometry.frame(in: .global).minY - self.menuMinY
                                 self.selectedIndex = index
+                                self.menuHeight = geometry.frame(in: .global).height
                         }.onAppear{
                             if index == 0{
                                 self.menuMinY = geometry.frame(in: .global).minY
@@ -157,7 +162,7 @@ struct MenuGroup: View {
             }
             Color("yellow")
                 .frame(width: 5, height: 33)
-                .offset(y: offsetVlaue)
+                .offset(y: ((menuHeight + 25) * CGFloat(selectedIndex)))
                 .animation(Animation.easeInOut(duration: 0.1))
         }
     }

@@ -9,6 +9,7 @@
 import SwiftUI
 
 struct LoginView: View {
+    @Binding var loggedIn: Bool
     var body: some View {
         HStack {
             Image(uiImage: #imageLiteral(resourceName: "login_margin"))
@@ -32,7 +33,7 @@ struct LoginView: View {
                 }
                 Spacer()
                 Button(action: {
-                    print(screen.height)
+                    self.loggedIn = true
                 }) {
                     HStack {
                         Text("Sign in")
@@ -65,11 +66,11 @@ struct LoginView: View {
 struct LoginView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            LoginView()
+            LoginView(loggedIn: .constant(false))
                 .previewDevice(PreviewDevice(rawValue: "iPhone SE"))
                 .previewDisplayName("iPhone SE")
                 .environment(\.colorScheme, .dark)
-            LoginView()
+            LoginView(loggedIn: .constant(false))
                 .environment(\.colorScheme, .dark)
         }
     }
